@@ -1,0 +1,43 @@
+/* terms-of-hamster.ejs */
+/* hamster-privacy-notice */
+header {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+header:hover {
+    color: black;
+}
+
+header img {
+    width: 200px;
+    margin: 10px;
+}
+
+#terms-of-hamster, #hamster-privacy-notice {
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    background-color: white;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* login.ejs */
+#form-div form {
+    margin: 0 auto;
+    padding: 30px;
+    width: 500px;
+}
+
+/* account.ejs */
+#account-div {
+    margin: 0 auto;
+    padding: 20px;
+    width: 30%;
+}
+

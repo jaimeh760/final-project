@@ -1,0 +1,80 @@
+<h2 class="header">Meth</h2>
+<div id="math-content">
+    <div id="calc-div">
+        <div id = "calc" class="z-depth-1">
+            <div id = "input-output">
+                <div id = "input">hamsters</div>
+                <div id = "output">0</div>
+            </div>
+            
+            <div id = "algorithms">
+                <a class="btn disabled">*</a>
+                <a class="btn disabled">/</a>    
+                <a class="btn disabled">-</a>
+                <a class="btn disabled">+</a>
+                
+               <a class="waves-effect waves-light btn-large ac-button" onclick={allClear()}>AC</a>
+            </div>
+            
+            <div id = "integers">
+                <a class="btn-floating btn-large waves-effect waves-light red" onclick={zero()}>0</a>
+                <a class="btn-floating btn-large waves-effect waves-light red" onclick={one()}>1</a>
+                <a class="btn-floating btn-large waves-effect waves-light red" onclick={two()}>2</a>
+                <a class="btn-floating btn-large waves-effect waves-light red" onclick={three()}>3</a>
+                <a class="btn-floating btn-large waves-effect waves-light red" onclick={four()}>4</a>
+                <a class="btn-floating btn-large waves-effect waves-light red" onclick={five()}>5</a>
+                <a class="btn-floating btn-large waves-effect waves-light red" onclick={six()}>6</a>
+                <a class="btn-floating btn-large waves-effect waves-light red" onclick={seven()}>7</a>
+                <a class="btn-floating btn-large waves-effect waves-light red" onclick={eight()}>8</a>
+                <a class="btn-floating btn-large waves-effect waves-light red" onclick={nine()}>9</a>
+            </div>
+            
+            <div id="switch-div">
+                <a id="switch-button" class="waves-effect waves-light btn indigo lighten-2" onclick={switchButton()}>Switch to Human Calculator</a>
+            </div>
+        </div>
+        
+        <div id="calc-2" class="z-depth-1">
+            <form name="calc">
+                <input id="input-2" name="input" placeholder="0">
+                <br>
+                <input id="times" class="btn disabled" type="button" value="*" onclick="document.calc.input.value+='*'">
+                <input id="divide" class="btn disabled" type="button" value="/" onclick="document.calc.input.value+='/'">
+                <input id="minus" class="btn disabled" type="button" value="-" onclick="document.calc.input.value+='-'">
+                <input id="plus" class="btn disabled" type="button" value="+" onclick="document.calc.input.value+='+'">
+                <input class="btn" type="button" value="AC" onclick="ac()">
+                <br>
+                <input class="btn-floating btn-large waves-effect waves-light red" type="button" value="0" onclick="num0()">
+                <input class="btn-floating btn-large waves-effect waves-light red" type="button" value="1" onclick="num1()">
+                <input class="btn-floating btn-large waves-effect waves-light red" type="button" value="2" onclick="num2()">
+                <input class="btn-floating btn-large waves-effect waves-light red" type="button" value="3" onclick="num3()">
+                <br>
+                <input class="btn-floating btn-large waves-effect waves-light red" type="button" value="4" onclick="num4()">
+                <input class="btn-floating btn-large waves-effect waves-light red" type="button" value="5" onclick="num5()">
+                <input class="btn-floating btn-large waves-effect waves-light red" type="button" value="6" onclick="num6()">
+                <input class="btn-floating btn-large waves-effect waves-light red" type="button" value="7" onclick="num7()">
+                <br>
+                <input class="btn-floating btn-large waves-effect waves-light red" type="button" value="8" onclick="num8()">
+                <input class="btn-floating btn-large waves-effect waves-light red" type="button" value="9" onclick="num9()">
+                <input class="btn-floating btn-large waves-effect waves-light red" type="button" value="." onclick="dot()">
+                <input class="btn-floating btn-large waves-effect waves-light red" type="button" value="=" onclick="equal()">
+            </form>
+            <div id="switch-div-2">
+                <a id="switch-button-2" class="waves-effect waves-light btn indigo lighten-2" onclick={switchButton2()}>Switch to Hamster Calculator</a>
+            </div>
+        </div>
+    </div>
+    
+    <p id="math-info">
+        Long ago, when humans didn't exist, hamsters were known as the superior creatures that dominated this world.
+        Their intellect far surpassed any creature ever created─even humans.
+        They were like alien beings with sophisticated technology that can never be developed by mere humans.
+        Unlike humans from the present, hamsters coexisted with dinosaurs, inluding the tyrannosaurus rex and velociraptor.
+        Though, dinosaurs weren't a threat to the hamsters; they were friendly creatures towards their elite.
+        <br>
+        <br>
+        A year after, hamsters invented their first calculator.
+        It was as equivalent as the modern calculator made by humans but far more advanced.
+        To the left is a sample of the sophisticated calculator made by hamsters.
+    </p>
+</div>

@@ -1,0 +1,49 @@
+header {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    z-index: 10;
+}
+
+header:hover {
+    background-color: white;
+    color: black;
+}
+
+header img {
+    width: 200px;
+    margin: 10px;
+}
+
+nav {
+    height: auto !important;
+    line-height: inherit !important;
+    text-align: center;
+    padding: 30px !important;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: transparent !important;
+    box-shadow: 0px 0px !important;
+}
+
+nav a {
+    font-size: 20px;
+    margin: 10px;
+    color: grey !important;
+}
+
+nav a:hover {
+    border-bottom: 3px solid red;
+    color: red !important;
+    cursor: pointer;
+}
+
+#name {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+

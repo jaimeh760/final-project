@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+        <title>Hamster Academy | Learn About Hamsters</title>
+        <link rel="stylesheet" href="css/home.css" />
+        <link rel="stylesheet" href="css/navbar.css" />
+        <link rel="stylesheet" href="css/content.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+        
+        <!-- Materialize -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <%- include("partials/navbar.ejs") %>
+        <div id="bg">
+            <p>
+                Welcome, you are about to witness one of the world's greatest hamster leaders, learn about hamster history and events, and utilize ancient hamster tools.
+                Due to the corruption of the human world, we, hamsters, were obliged to create an app where anyone can have access to view our works and plans to rule the world.
+                By the way, none of the information on here is not suppose to make sense.
+            </p>
+        </div>
+        
+        <%- include("partials/content.ejs") %>
+        <%- include("partials/footer.ejs") %>
+        
+        <script src="js/script.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    </body>
+</html>

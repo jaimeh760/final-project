@@ -1,0 +1,251 @@
+/* fortune.ejs */
+.header {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#fortune-content {
+    display: flex; /* eliminates whitespace between divs */
+}
+
+#fortune-div {
+    text-align: center;
+    width: 50%;
+    background-color: #eceff1;
+    padding-top: 80px;
+}
+
+#fortune, #fortune-div a {
+    margin: 0 auto;
+}
+
+#fortune {
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+    color: rgba(0,0,0,0.3);
+}
+
+#fortune-div a {
+    width: 100px;
+    background-color: #424242;
+    color: white;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
+}
+
+#fortune-div a:hover {
+    background-color: #757575;
+    cursor: pointer;
+}
+
+#fortune-info {
+    margin: 0;
+    background-color: #78909c;
+    width: 50%;
+    padding: 70px;
+    color: #eceff1;
+    font-size: 20px;
+}
+
+#fortune-div, #fortune-info {
+    display: inline-block;
+}
+
+/* math.ejs */
+#math-content {
+    display: flex;
+}
+
+#calc-div, #math-info {
+    display: inline-block;
+    width: 50%;
+}
+
+#calc-div {
+    background-color: #e0f7fa;
+    padding-top: 40px;
+}
+
+#math-info {
+    padding: 70px;
+    background-color: #00bcd4;
+    color: #e0f7fa;
+    font-size: 20px;
+    margin: 0;
+}
+
+#calc,#calc-2 {
+    width: 410px;
+    height: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+}
+
+#input-output {
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(230,230,230);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: "";
+    font-size: 20px;
+}
+
+#output {
+    color: black;
+    float: right;
+    text-align: right;
+}
+
+#input {
+    color: #a6a6a6;
+}
+
+.btn, .ac-button {
+    margin: 14px;
+    padding: 20px !important;
+    height: 0 !important;
+    line-height: 0 !important;
+}
+
+.btn-floating {
+    margin: 11px;
+}
+
+#integers {
+    margin: 0 auto;
+}
+
+#switch-div, #switch-div-2 {
+    padding: 30px;
+    text-align: center;
+}
+
+#switch-button {
+    margin: 0;
+}
+
+
+form {
+    text-align: center;
+}
+
+#input-2 {
+    padding: 10px;
+    width: 390px;
+}
+
+
+/* current-events.ejs */
+#current-events-div {
+    display: flex;
+}
+
+#card-div, #current-events-info {
+    display: flex;
+}
+
+#card-div {
+    padding: 30px;
+    width: 50%;
+    background-color: #fbe9e7;
+}
+
+#current-events-info {
+    width: 50%;
+    background-color: #f4511e;
+    margin: 0;
+    font-size: 20px;
+    padding: 70px;
+    color: #fbe9e7;
+}
+
+.card {
+    
+}
+
+.col {
+    margin: 0 auto;
+}
+
+/* history.ejs */
+#history-content {
+    display: flex;
+}
+
+#history-div, #history-info {
+    display: inline-block;
+}
+
+#history-div {
+    width: 60%;
+    background-color: #ede7f6;
+    padding: 60px;
+}
+
+#history-div div {
+    padding: 40px;
+    color: black;
+    background-color: white !important;
+}
+
+#history-info {
+    width: 40%;
+    background-color: #5e35b1;
+    margin: 0;
+    padding: 70px;
+    font-size: 20px;
+    color: #ede7f6;
+}
+
+/* gallery.ejs */
+#gallery-content {
+    display: flex;
+}
+
+#gallery-div, #gallery-info {
+    display: inline-block;
+}
+
+#gallery-div {
+    width: 60%;
+    background-color: #e8f5e9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#gallery-div div {
+    margin: 0 auto;
+    width: 915px;
+}
+
+#gallery-info {
+    width: 40%;
+    margin: 0;
+    padding: 70px;
+    font-size: 20px;
+    color: #e8f5e9;
+    background-color: #388e3c;
+}
+
+#gallery-div img {
+    margin: 0;
+    width: 300px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 1px;
+}
+
+
+
+
